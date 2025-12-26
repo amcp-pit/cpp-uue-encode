@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 0 (encode cat.txt)",
+      "setup": "",
+      "run": "./uuencode tests/cat.txt output.uue && cmp output.uue tests/cat.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 1 (encode ex1.txt)",
+      "setup": "",
+      "run": "./uuencode tests/ex1.txt output.uue && cmp output.uue tests/ex1.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2 (encode ex2.txt)",
+      "setup": "",
+      "run": "./uuencode tests/ex2.txt output.uue && cmp output.uue tests/ex2.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3 (encode ex3.txt)",
+      "setup": "",
+      "run": "./uuencode tests/ex3.txt output.uue && cmp output.uue tests/ex3.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4 (encode ex4.txt)",
+      "setup": "",
+      "run": "./uuencode tests/ex4.txt output.uue && cmp output.uue tests/ex4.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5 (encode ex5.txt)",
+      "setup": "",
+      "run": "./uuencode tests/ex5.txt output.uue && cmp output.uue tests/ex5.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6 (encode ex6.txt)",
+      "setup": "",
+      "run": "./uuencode tests/ex6.txt output.uue && cmp output.uue tests/ex6.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7 (encode ex7.bmp)",
+      "setup": "",
+      "run": "./uuencode tests/ex7.bmp output.uue && cmp output.uue tests/ex7.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8 (encode ex8.jpg)",
+      "setup": "",
+      "run": "./uuencode tests/ex8.jpg output.uue && cmp output tests/ex8.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9 (encode Alice)",
+      "setup": "",
+      "run": "./uuencode tests/ex9.txt output.uue && cmp output tests/ex9.uue",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
