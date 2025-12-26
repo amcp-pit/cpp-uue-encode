@@ -83,7 +83,7 @@
     {
       "name": "Test 8 (encode ex8.jpg)",
       "setup": "",
-      "run": "./uuencode tests/ex8.jpg output.uue && cmp output tests/ex8.uue",
+      "run": "./uuencode tests/ex8.jpg output.uue && cmp output.uue tests/ex8.uue",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -93,7 +93,7 @@
     {
       "name": "Test 9 (encode Alice)",
       "setup": "",
-      "run": "./uuencode tests/ex9.txt output.uue && cmp output tests/ex9.uue",
+      "run": "./uuencode tests/ex9.txt output.uue && cmp output.uue tests/ex9.uue",
       "input": "",
       "output": "",
       "comparison": "include",
